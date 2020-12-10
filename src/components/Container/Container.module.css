@@ -1,9 +1,0 @@
-.container {
-  margin: 30px auto;
-  padding: 30px;
-
-  width: 500px;
-  background-color: var(--bgColor);
-  border-radius: 10px;
-  box-shadow: var(--shadow-dark);
-}
