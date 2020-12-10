@@ -1,0 +1,29 @@
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 20px;
+
+  color: var(--primaryWhiteColor);
+  background-color: grey;
+
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  border: solid var(--primaryWhiteColor) 2px;
+
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.button:not(:last-child) {
+  margin-right: 20px;
+}
+
+.button:hover {
+  background-color: var(--darkVioletColor);
+  transform: scale(1.1);
+}

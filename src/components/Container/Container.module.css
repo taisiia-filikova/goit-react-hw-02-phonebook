@@ -1,0 +1,13 @@
+.container {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+
+  width: 500px;
+  background-color: var(--bgColor);
+  border-radius: 10px;
+  box-shadow: var(--shadow-dark);
+}
