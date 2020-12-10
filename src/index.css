@@ -58,13 +58,21 @@ li {
   list-style: none;
 }
 
-li:before {
-  content: '★';
-  margin-right: 8px;
-}
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 25px;
+  color: var(--violetColor);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--violetColor);
 }
