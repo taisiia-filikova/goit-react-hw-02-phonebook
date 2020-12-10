@@ -70,9 +70,9 @@ class App extends Component {
     const visibleContacts = this.makeVisibleContacts();
     return (
       <Container>
-        <h1>Phonebook</h1>
+        <h1>My phonebook</h1>
         <ContactForm onSubmit={this.generateContact} />
-        <h2>Contacts</h2>
+        <h2>Contacts:</h2>
         {contacts.length > 1 && (
           <ContactFilter value={filter} onChange={this.changeFilter} />
         )}
